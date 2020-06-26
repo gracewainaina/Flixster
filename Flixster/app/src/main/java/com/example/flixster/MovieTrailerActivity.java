@@ -39,6 +39,8 @@ public class MovieTrailerActivity extends YouTubeBaseActivity {
 
                         // to cue video
                         youTubePlayer.cueVideo(videoKey);
+                        youTubePlayer.setFullscreen(true);
+                        Toast.makeText(MovieTrailerActivity.this, "Click to play Movie Trailer", Toast.LENGTH_SHORT).show();
                         // or to play immediately
                         // youTubePlayer.loadVideo(videoKey);
                     }
