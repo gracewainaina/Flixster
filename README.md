@@ -17,22 +17,26 @@ The following **required** functionality is completed:
 
 The following **stretch** features are implemented:
 
-* [ ] Improved the user interface by experimenting with styling and coloring.
+* [x] Improved the user interface by experimenting with styling and coloring particularly background color and a toast feature.
 * [x] Apply rounded corners for the poster or background images using [Glide transformations](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#transformations)
-* [ ] Apply the popular [View Binding annotation library](http://guides.codepath.org/android/Reducing-View-Boilerplate-with-ViewBinding) to reduce boilerplate code.
+* [x] Apply the popular [View Binding annotation library](http://guides.codepath.org/android/Reducing-View-Boilerplate-with-ViewBinding) to reduce boilerplate code. Check out the [MovieDetailsActivity.java](https://github.com/gracewainaina/Flixster/blob/master/Flixster/app/src/main/java/com/example/flixster/MovieDetailsActivity.java) file.
 * [x] Allow video trailers to be played in full-screen using the YouTubePlayerView from the details screen.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/gracewainaina/Flixster/blob/master/Screenshots/FlixsterLandscapeWalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/gracewainaina/Flixster/blob/master/Screenshots/FlixsterPotraitWalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app. 
+I experienced some confusion trying to understand intents and activities as well as setting onClick listeners at first but it eventually became clear after further research and help from the TAs. 
+
+
 
 ## Open-source libraries used
 
@@ -41,7 +45,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2020] [Grace Wainaina]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
